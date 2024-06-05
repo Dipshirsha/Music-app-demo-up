@@ -1,0 +1,46 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+   background-color:rgb(232, 240, 243);
+   font-style: oblique;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  
+  .user-greeting {
+    font-size: 1.25rem; /* Equivalent to text-xl */
+  }
+  
+  .songs-container {
+    display: block;
+   
+    width: 100%;
+    overflow-x: auto;  /* Enable horizontal scrolling */
+    white-space: nowrap;  /* Prevent line breaks */
+padding: 10px;
+justify-content: center;
+align-items: center;
+  }
+
+
+  .extra-height{
+    height: 160px;
+  }
+  
+  .song-player {
+    position: fixed;
+    bottom: 0;
+  }
+  
+@media(max-width:460px){
+  .songs-container{
+    display: block;
+
+    width: 100%;
+    overflow-x: auto;  /* Enable horizontal scrolling */
+    white-space: nowrap;  /* Prevent line breaks */
+padding: 10px;
+  
+  }
+
+}
